@@ -1,0 +1,40 @@
+
+@font-face {
+  font-family: "JJCircularBook";
+  src: url("./fonts/JJCircularBook.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/JJCircularBook.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/JJCircularBook.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/JJCircularBook.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/JJCircularBook.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/JJCircularBook.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/JJCircularBook.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JJCircularBold";
+  src: url("./fonts/JJCircularBold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/JJCircularBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/JJCircularBold.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/JJCircularBold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/JJCircularBold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/JJCircularBold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/JJCircularBold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.label {
+	font-family: 'JJCircularBold';
+	font-size: 24px;
+}
+
+.btn{
+	 border-radius: 0rem !important;
+}
+
+a:hover{
+	
+	text-decoration: none;
+}
