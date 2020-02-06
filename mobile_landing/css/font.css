@@ -33,3 +33,8 @@
 .btn{
 	 border-radius: 0rem !important;
 }
+
+a:hover{
+	
+	text-decoration: none;
+}
