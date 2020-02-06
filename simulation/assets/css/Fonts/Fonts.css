@@ -1,0 +1,77 @@
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Black;
+ src: local('J&J Circular Black'), local('JJ_Circular-Black'),
+ url(JJ_Circular-Black.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Italic
+ src: local('J&J Circular Black Italic'), local('JJ_Circular-BlackItalic'),
+ url(JJ_Circular-BlackItalic.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Bold;
+ src: local('J&J Circular Bold'), local('JJ_Circular-Bold'),
+ url(JJ_Circular-Bold.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: 'Bold Italic';
+ src: local('J&J Circular Bold Italic'), local('JJ_Circular-BoldItalic'),
+ url(JJ_Circular-BoldItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Book;
+ src: local('J&J Circular Book'), local('JJ_Circular-Book'),
+ url(JJ_Circular-Book.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: 'Book Italic';
+ src: local('J&J Circular Book Italic'), local('JJ_Circular-BookItalic'),
+ url(JJ_Circular-BookItalic.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Light;
+ src: local('J&J Circular Light'), local('JJ_Circular-Light'),
+ url(JJ_Circular-Light.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: 'Light Italic';
+ src: local('J&J Circular Light Italic'), local('JJ_Circular-LightItalic'),
+ url(JJ_Circular-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: Medium;
+ src: local('J&J Circular Medium'), local('JJ_Circular-Medium'),
+ url(JJ_Circular-Medium.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'J&J Circular';
+ font-style: 'Medium Italic';
+ src: local('J&J Circular Medium Italic'), local('JJ_Circular-MediumItalic'),
+ url(JJ_Circular-MediumItalic.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'Sacramento Regular';
+ font-style: normal;
+ src: local('Sacramento Regular'), local('Sacramento-Regular'),
+ url(SacramentoRegular.ttf) format('truetype');
+}
