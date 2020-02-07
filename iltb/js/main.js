@@ -1,5 +1,5 @@
 
-if (window.screen.width < 1080 ) {
+if (window.screen.width < 980 ) {
 window.location = "mobile.html";
 }
 else{
