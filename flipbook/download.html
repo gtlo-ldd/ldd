@@ -1,15 +1,34 @@
 
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<head>
-		<title>Download file</title>
-		<script type="text/javascript" src="js/download.js"></script>
-	</head>
+    <!-- Bootstrap CSS & JS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+	  
+	<!-- Download JS-->
+	<script type="text/javascript" src="js/download.js"></script>
+	  
+	<!-- JJ Font -->
+    <link rel="stylesheet" href="css/font.css">
 
-	<body onLoad=download("https://gtlo-ldd.github.io/prototype/flipbook/flipbook_etime.pdf");>
-		Downloading...
-		<!-- Download Script Handle -->
-	</body>	
-
+    <title>eTime - Flipbook</title>
+  </head>
+  
+  <body onLoad=download("https://gtlo-ldd.github.io/prototype/flipbook/flipbook_etime.pdf");>
+  	<div class="container-fluid ">
+		<div class="row align-items-center mt-5">
+			<div class="col-12">
+				<img src="assets/2x/head_img_dl.png" class="img-fluid mx-auto d-block">
+				<br/>
+				<p class="text-center label">Flipbook is being downloaded...</p>
+				<br/>	
+			</div>	
+		</div>
+	</div>
+  </body>
 </html>
-
