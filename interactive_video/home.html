@@ -162,24 +162,34 @@ function initializeCP()
 		
 </script>
 
-<script type="text/javascript">
-	setTimeout(function(){
-		//alert("test");
-		document.getElementById('projectBorder').style.display='none'; //removes background border;
-		document.getElementById('playbarBkGrnd').style.display='none'; //removes Playbar border;
-		document.getElementById('playImage').click(); //Auto Play the Video			
-	}, 500);
-
-	setTimeout(function(){
-		var BTN_CP = ["Btn_ChooseMale", "Btn_ChooseFemale", "Btn_Male_Salad", "Btn_Male_Pancake", "Btn_Male_CoolMint", "Btn_Male_TotalCare", "Btn_Male_Formal",	"Btn_Male_Casual", "Btn_Female_Salad", "Btn_Female_Pancake", "Btn_Female_Coolmint", "Btn_Female_Total_Care", "Btn_Female_Formal", "Btn_Female_Casual", "Btn_Male_Casual_Walk", "Btn_Male_Casual_Bus", "Btn_Male_Formal_Walk_36", "Btn_Male_Formal_Bus_37", "Btn_Female_Casual_Walk", "Btn_Female_Casual_Bus", "Btn_Female_Formal_Walk", "Btn_Female_Formal_Bus"];
-
-			for(bx=0; bx < BTN_CP.length; bx++){
-				//console.log(bx);
-				document.getElementById(BTN_CP[bx]).style.cursor = "pointer";
-			}		
-	}, 5000);	
 </script>
 
+
+	/*
+
+	Notes: This Javascript is for:
+		- remove Playbar at the bottom of the player
+		- Autoplay the video
+		- Add a cursor pointer for the clickables
+	*/
+
+	<script type="text/javascript">
+		setTimeout(function(){
+			//alert("test");
+			document.getElementById('projectBorder').style.display='none'; //removes background border;
+			document.getElementById('playbarBkGrnd').style.display='none'; //removes Playbar border;
+			document.getElementById('playImage').click(); //Auto Play the Video			
+		}, 500);
+
+		setTimeout(function(){
+			var BTN_CP = ["Btn_ChooseMale", "Btn_ChooseFemale", "Btn_Male_Salad", "Btn_Male_Pancake", "Btn_Male_CoolMint", "Btn_Male_TotalCare", "Btn_Male_Formal",	"Btn_Male_Casual", "Btn_Female_Salad", "Btn_Female_Pancake", "Btn_Female_Coolmint", "Btn_Female_Total_Care", "Btn_Female_Formal", "Btn_Female_Casual", "Btn_Male_Casual_Walk", "Btn_Male_Casual_Bus", "Btn_Male_Formal_Walk_36", "Btn_Male_Formal_Bus_37", "Btn_Female_Casual_Walk", "Btn_Female_Casual_Bus", "Btn_Female_Formal_Walk", "Btn_Female_Formal_Bus"];
+
+				for(bx=0; bx < BTN_CP.length; bx++){
+					//console.log(bx);
+					document.getElementById(BTN_CP[bx]).style.cursor = "pointer";
+				}		
+		}, 5000);	
+</script>
 <noscript style="text-align:center;font-size:24px;">Enable Javascript support in the browser.</noscript>
 </body>
 </html>
