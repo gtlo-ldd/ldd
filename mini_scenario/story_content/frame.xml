@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10100000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnabnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified">
   <layouts>
-    <layout name="npnxnanbsnfns10100000001" font="JJ Circular Book" controllayout="npnxnanbsnfns10100000001" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
-    <layout name="pxabnsnfns10100000001" font="JJ Circular Book" controllayout="pxabnsnfns10100000001" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
-    <layout name="npxnabnsnfns10100000001" font="JJ Circular Book" controllayout="npxnabnsnfns10100000001" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
-    <layout name="npnxnanbnsnfns10100000001" font="JJ Circular Book" controllayout="npnxnanbnsnfns10100000001" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
-    <layout name="pxabnsnfns10100000000" font="JJ Circular Book" controllayout="pxabnsnfns10100000000" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
-    <layout name="pnxanbnsnfns10100000001" font="JJ Circular Book" controllayout="pnxanbnsnfns10100000001" colorscheme="pxabnsnfns10100000001" string_table="pxabnsnfns10100000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Lato" controllayout="npnxnanbsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Lato" controllayout="pxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Lato" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Lato" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Lato" controllayout="pxabnsnfns00000000000" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxnabnsnfns00000000001" font="Lato" controllayout="npnxnabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="npnxabnsnfns00000000001" font="Lato" controllayout="npnxabnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
+    <layout name="pnxanbnsnfns00000000001" font="Lato" controllayout="pnxanbnsnfns00000000001" colorscheme="npnxnabnsnfns00000000001" string_table="npnxnabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="true">
+          <option name="title_enabled" value="false">
             <options>
               <option name="title_text" value="Total Rewards Training Program" />
             </options>
@@ -59,18 +61,18 @@
       <optiongroup name="controls">
         <options>
           <option name="volume" value="false" />
-          <option name="seekbar" value="true">
+          <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
               <option name="readonlyOnce" value="false" />
             </options>
           </option>
           <option name="pauseplay" value="false" />
-          <option name="replay" value="true" />
+          <option name="replay" value="false" />
           <option name="search" value="false" />
           <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Open Sans" />
+              <option name="font" value="Lato" />
             </options>
           </option>
         </options>
@@ -90,10 +92,10 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10100000001">
+    <control_layout name="npnxnanbsnfns00000000001">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -113,10 +115,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10100000001">
+    <control_layout name="pxabnsnfns00000000001">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -136,10 +138,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10100000001">
+    <control_layout name="npxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -159,10 +161,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10100000001">
+    <control_layout name="npnxnanbnsnfns00000000001">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="false" />
@@ -182,10 +184,10 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10100000000">
+    <control_layout name="pxabnsnfns00000000000">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -205,10 +207,56 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns10100000001">
+    <control_layout name="npnxnabnsnfns00000000001">
       <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxabnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
       <control name="logo" enabled="false" />
       <control name="previous" enabled="true" />
@@ -230,7 +278,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns10100000001">
+    <colorscheme name="npnxnabnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1109,7 +1157,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+                <color rgb="0xC00000" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1241,7 +1289,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns10100000001">
+    <string_table name="npnxnabnsnfns00000000001">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1285,7 +1333,7 @@
       <string id="search">Search...</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="acc_skipnavigation">Back to top.</string>
+      <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
@@ -1295,9 +1343,9 @@
     </string_table>
   </string_tables>
   <fonts>
-    <font name="JJ Circular Book">
+    <font name="Lato">
       <files>
-        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
@@ -1306,71 +1354,30 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6iPlt8J0Akt" displaytext="Scenario 1" expand="true" type="slide">
+        <slidelink slideid="_player.5XDsAEycegm" displaytext="Challenge 1 - Total Rewards and Pay for Performance Philosophy" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6iPlt8J0Akt.67bOO5KkkpT" displaytext="Scenario 1 - Welcome" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6RnQ19e6mt3" displaytext="Scenario 1 - Meet the Team" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.63KEvhYFfYX" displaytext="Scenario 1 - The CEO" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6DlFnknFGUM" displaytext="Scenario 1 - Your Goal" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6GyZd4EH987" displaytext="Scenario 1 - Help" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6SKkjFyXDAU" displaytext="Scenario 1 - Help2" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.5uZ3gnXeWWe" displaytext="Scenario 1 - Pay Grades" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.5j3vIZ5gYrI" displaytext="Scenario 1 - Salary Ranges" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6gkRGdecAOx" displaytext="Scenario 1 - Midpoint" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.5lnnsNE4N4U" displaytext="Scenario 1 - Compa ratio" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6D90xDoacUv" displaytext="Scenario 1 -  Omar Compa ratio" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.61SaV29yHg2" displaytext="Scenario 1 -  Omar Compa ratio result" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6V5TbhkqQv4" displaytext="Scenario 1 - Wang Ai Checkpoint" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6WNcT91tV5g" displaytext="Scenario 1 - Wang Ai Intro" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6VS5fPNzCo0" displaytext="Scenario 1 - Calculate Wang Ai" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.5Ynm7wvCXM1" displaytext="Scenario 1 - Team Compact Ratio" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6MbV0EWKPOE" displaytext="Scenario 1 - Review" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6WZECvjReqh" displaytext="Scenario 1 - Meet Manuel" expand="false" type="slide" />
-            <slidelink slideid="_player.6iPlt8J0Akt.6Jeos4yffOZ" displaytext="Scenario 1 - Manuel" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6IYMy1yzgck" displaytext="Scenario 3" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6IYMy1yzgck.6a3aybhpmdT" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6lRgZBavlOr" displaytext="Scenario 4" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6lRgZBavlOr.5g8F6zSR4Ri" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6LbcUIuG5BX" displaytext="Scenario 5" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6LbcUIuG5BX.6qLaiDpieD2" displaytext="Untitled Slide" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.62O7iyB8zYn" displaytext="Scenario 1 - Investigate" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.62O7iyB8zYn.5jrmcTejpPX" displaytext="Investigate Homepage" expand="false" type="slide" />
-            <slidelink slideid="_player.62O7iyB8zYn.6TLLOXewgGA" displaytext="Members" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6OojPVKJ48t" displaytext="Scenario 1 - Decide" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6OojPVKJ48t.6Vw4c84UBrB" displaytext="Decide - Homepage" expand="false" type="slide" />
-            <slidelink slideid="_player.6OojPVKJ48t.6ORfOVv0sEE" displaytext="Scenario 1 - End" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6UQkuExshZo" displaytext="Scenario 1 - Ai Report" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6UQkuExshZo.62epS8t0Lha" displaytext="Ai" expand="false" type="slide" />
-            <slidelink slideid="_player.6UQkuExshZo.5xBRGlMiGFs" displaytext="Ai - Review" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.5ZZnIUkYz5M" displaytext="Scenario 1 - Omar Report" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.5ZZnIUkYz5M.5YxetG42Nx0" displaytext="Omar" expand="false" type="slide" />
-            <slidelink slideid="_player.5ZZnIUkYz5M.6onrg12jywc" displaytext="Omar - Review" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6cDRMD00hDm" displaytext="Scenario 2" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6cDRMD00hDm.5dSTgkealCb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6U8NQOfbOtM" displaytext="Total Rewards " expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.615fbW9Ru6n" displaytext="Manuel Fonseca" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5omRp3V9NPn" displaytext="Introduction to Problem" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6DmCv6HAb9V" displaytext="Andrew Gibson" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6k32dwdFDix" displaytext="Your Goal" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6HVSsI7lRhY" displaytext="Andrea's Dialogue" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5v6GWsYhgxe" displaytext="Manuel's Team" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5p4XX2Ffs8h" displaytext="Andrew's Feedback" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6nuz3iGGHGY" displaytext="Report" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6aKcbI65QFT" displaytext="Pay Grade" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6qck6E0Cqrr" displaytext="Midpoint" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5aD1RlM1aYO" displaytext="Compa ratio" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6kpe5F5fnGJ" displaytext="Compute Omar's Compa-ratio" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5nuJCmlnyHa" displaytext="Omar's Conclusion" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6dccR4pAmki" displaytext="Link to Performance" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5wsqkTbgWws" displaytext="Investigate Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5hiAeg6O6MY" displaytext="Investigate Exercise - Omar" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6iznj0znsWI" displaytext="Investigate Exercise- Wang" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5Ygw2PtyRpP" displaytext="Decide - Home" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5qjBvvJ9Ssm" displaytext="Key takeaways" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.6mNMpOpZoFN" displaytext="Practice" expand="false" type="slide" />
+            <slidelink slideid="_player.5XDsAEycegm.5l2sOIfJsxd" displaytext="Scenario 1 - End" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
