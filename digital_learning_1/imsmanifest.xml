@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="XHQkvgm6EfOi8t5-DPfBf4lLPvN_IDxN7VAQEELb" version="1.3"
+  xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3"
+  xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3"
+  xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3"
+  xmlns:imsss="http://www.imsglobal.org/xsd/imsss"
+  xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd
+                      http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd
+                      http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="B0">
+    <organization identifier="B0" adlseq:objectivesGlobalToSystem="false">
+      <title>Introduction to Contracting</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Introduction to Contracting</title>
+        <imsss:sequencing>
+          <imsss:deliveryControls tracked="true" completionSetByContent="true" objectiveSetByContent="true"/>
+        </imsss:sequencing>
+      </item>
+      <metadata>
+        <adlcp:location>metadata.xml</adlcp:location>
+      </metadata>
+      <imsss:sequencing>
+        <imsss:controlMode choice="true" flow="true"/>
+        <imsss:deliveryControls tracked="true" completionSetByContent="false" objectiveSetByContent="false"/>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormType="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/hUt8e6AWHJ2pm4tS-JJCircular-Book.woff" />
+<file href="scormcontent/lib/fonts/CSba-y3lL8lQUdP6-JJCircular-Bold.woff" />
+<file href="scormcontent/lib/fonts/GKLQsbLJr80QmzOF-JJCircular-BookItalic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/assets/5bOGExNVp7SZkptL_small.png" />
+<file href="scormcontent/assets/lJEcWdvc4ToVmwLD_small.png" />
+<file href="scormcontent/assets/_n5VyvBsjwkX8OLi_small.png" />
+<file href="scormcontent/assets/hUQDfJGyLXpNFpc1_small.png" />
+<file href="scormcontent/assets/Sx_CLrlg9qLVD_Q-_cAHJNYHB9VNzLNbT.png" />
+<file href="scormcontent/assets/6310BsmhUXMhe3eK_MGt2kP92n3IXWeKC.png" />
+<file href="scormcontent/assets/BjhBXtIfFf-a5jtL_PxLeA5PuhwtPKUhJ.png" />
+<file href="scormcontent/assets/Jig5JLdvSTnd0uFM_CNTTON4q8Bp7wYj_.jpg" />
+<file href="scormcontent/assets/j1ME81LdoUDF81df_epBXdcqXqrOHQK7x.png" />
+<file href="scormcontent/assets/z4YcaMSysrPc-6MN_Lh1pWyJ7iTiQIe4s.png" />
+<file href="scormcontent/assets/Hi6HTkH73Exn0obS_3z1RzMndq5g86lhr.png" />
+<file href="scormcontent/assets/fGcvmk6NOKm2OAEI_-MT1Up3DsLGdlzRN.png" />
+<file href="scormcontent/assets/50lmF9qCCN57BVbm_r12CWEQfzy9v7zpk.png" />
+<file href="scormcontent/assets/1jsPXWFUEpnFZLpr_3aFhV2XJT-Pijvq7.png" />
+<file href="scormcontent/assets/9lY9gLQj0h0feZPz_GKI7M6LAmQ9AqgLA.png" />
+<file href="scormcontent/assets/0hGSBsc7BQNaRqvC_vg5h5OQkPjNvI6kH.jpg" />
+<file href="scormcontent/assets/o1u3kEziz_hB_oUR_6Ji3gWjrxHfbFghd.png" />
+<file href="scormcontent/assets/XTNHKadWmKROys6B_5UWpFo4fE50Rg_sv.png" />
+<file href="scormcontent/assets/K1eRKsm_jVjpPhLk_PZTa0HM7aLriytZY.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
