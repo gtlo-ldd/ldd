@@ -42,6 +42,6 @@ default:
    userbrowser = 'Safari';   userbrowser = 'Safari';
 
 
-}
 
+}
 alert('9q374edsfg');
