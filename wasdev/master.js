@@ -44,4 +44,4 @@ default:
 
 }
 
-alert('You are using ' + userbrowser + ' browser');
+alert('Test kurewr');
