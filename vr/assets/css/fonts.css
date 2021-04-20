@@ -1,0 +1,122 @@
+@import url("fonts.css");
+
+@font-face {
+  font-family: "JJ Circular Black";
+  src: url("fonts/JJ Circular Black.eot"); 
+  src: url("fonts/JJ Circular Black.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Black.otf") format("opentype"),
+    url("fonts/JJ Circular Black.svg") format("svg"),
+    url("fonts/JJ Circular Black.ttf") format("truetype"),
+    url("fonts/JJ Circular Black.woff") format("woff"),
+    url("fonts/JJ Circular Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Black Italic";
+  src: url("fonts/JJ Circular Black Italic.eot");
+  src: url("fonts/JJ Circular Black Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Black Italic.otf") format("opentype"),
+    url("fonts/JJ Circular Black Italic.svg") format("svg"),
+    url("fonts/JJ Circular Black Italic.ttf") format("truetype"),
+    url("fonts/JJ Circular Black Italic.woff") format("woff"),
+    url("fonts/JJ Circular Black Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Bold";
+  src: url("fonts/JJ Circular Bold.eot");
+  src: url("fonts/JJ Circular Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Bold.otf") format("opentype"),
+    url("fonts/JJ Circular Bold.svg") format("svg"),
+    url("fonts/JJ Circular Bold.ttf") format("truetype"),
+    url("fonts/JJ Circular Bold.woff") format("woff"),
+    url("fonts/JJ Circular Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Bold Italic";
+  src: url("fonts/JJ Circular Bold Italic.eot");
+  src: url("fonts/JJ Circular Bold Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Bold Italic.otf") format("opentype"),
+    url("fonts/JJ Circular Bold Italic.svg") format("svg"),
+    url("fonts/JJ Circular Bold Italic.ttf") format("truetype"),
+    url("fonts/JJ Circular Bold Italic.woff") format("woff"),
+    url("fonts/JJ Circular Bold Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Book";
+  src: url("fonts/JJ Circular Book.eot");
+  src: url("fonts/JJ Circular Book.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Book.otf") format("opentype"),
+    url("fonts/JJ Circular Book.svg") format("svg"),
+    url("fonts/JJ Circular Book.ttf") format("truetype"),
+    url("fonts/JJ Circular Book.woff") format("woff"),
+    url("fonts/JJ Circular Book.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Book Italic";
+  src: url("fonts/JJ Circular Book Italic.eot");
+  src: url("fonts/JJ Circular Book Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Book Italic.otf") format("opentype"),
+    url("fonts/JJ Circular Book Italic.svg") format("svg"),
+    url("fonts/JJ Circular Book Italic.ttf") format("truetype"),
+    url("fonts/JJ Circular Book Italic.woff") format("woff"),
+    url("fonts/JJ Circular Book Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Light";
+  src: url("fonts/JJ Circular Light.eot");
+  src: url("fonts/JJ Circular Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Light.otf") format("opentype"),
+    url("fonts/JJ Circular Light.svg") format("svg"),
+    url("fonts/JJ Circular Light.ttf") format("truetype"),
+    url("fonts/JJ Circular Light.woff") format("woff"),
+    url("fonts/JJ Circular Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Light Italic";
+  src: url("fonts/JJ Circular Light Italic.eot");
+  src: url("fonts/JJ Circular Light Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Light Italic.otf") format("opentype"),
+    url("fonts/JJ Circular Light Italic.svg") format("svg"),
+    url("fonts/JJ Circular Light Italic.ttf") format("truetype"),
+    url("fonts/JJ Circular Light Italic.woff") format("woff"),
+    url("fonts/JJ Circular Light Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Medium";
+  src: url("fonts/JJ Circular Medium.eot");
+  src: url("fonts/JJ Circular Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Medium.otf") format("opentype"),
+    url("fonts/JJ Circular Medium.svg") format("svg"),
+    url("fonts/JJ Circular Medium.ttf") format("truetype"),
+    url("fonts/JJ Circular Medium.woff") format("woff"),
+    url("fonts/JJ Circular Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "JJ Circular Medium Italic";
+  src: url("fonts/JJ Circular Medium Italic.eot");
+  src: url("fonts/JJ Circular Medium Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/JJ Circular Medium Italic.otf") format("opentype"),
+    url("fonts/JJ Circular Medium Italic.svg") format("svg"),
+    url("fonts/JJ Circular Medium Italic.ttf") format("truetype"),
+    url("fonts/JJ Circular Medium Italic.woff") format("woff"),
+    url("fonts/JJ Circular Medium Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
